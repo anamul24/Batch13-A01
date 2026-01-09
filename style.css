@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family:'inter', sans-serif;
+}
+.logo img{
+    
+    width: 139px;
+    height: 60px;
+
+}
+nav{
+    width: 80%;
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    
+}
+nav .menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+.top-btn{
+    background-color: #30B868;
+    font-weight: 600;
+    border: none;
+    width: 164px;
+    height: 44px;
+    border-radius: 5px;
+    color:white ;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.banner-btn {
+    margin-top: -30px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.banner-btn .first-btn {
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    height: 52px;
+    border-radius: 5px;
+    color:white ;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.banner-btn .second-btn{
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 52px;
+    cursor: pointer; 
+}
+
+#banner{
+    
+    background-image: url(Image/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 90vh;
+    background-position: center;
+    
+}
+#banner .overlay{
+    position: absolute;
+    background: rgb(7, 25, 44,0.78);
+    z-index: 1;
+}
+#banner .banner-content{
+    padding: 160px 0 120px;
+    text-align: center;
+    color: #fff;
+}
+#banner .banner-content .badge{
+    display:inline-block;
+    margin-bottom: 24px;
+    padding: 6px 14px;
+    background-color: rgb(255, 255, 255, 1);
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 90px;
+    line-height: 19px;
+    gap: 6px;
+    align-items: center;
+}
+#banner .banner-content h1{
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-content h1 span{
+    color: #30b868;
+}
+.banner-content p{
+    font-size: 18px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+#features .features-container{
+    padding: 0 120px;
+    max-width: 1600px;
+    background-color: #f8fafc;
+    text-align: center;
+}
+#features .features-container .features-heading h1{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+#features .features-container .features-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    color:#627382 ;
+}
+#features .features-container .features-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+    padding: 80px 120px;
+}
+.features-box .features-card{
+    padding: 30px;
+    max-width:267px ;
+    box-shadow: 0 6px 50px 0 #75757553;
+}
+.features-card .icon{
+    margin-bottom: 32px;
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    display: flex;
+}
+.features-card .icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.features-card h3{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px ;
+}
+.features-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+
+}
+
+#second-brain{
+    display: flex;
+    padding: 120px 120px;
+}
+.second-brain-container{
+    display: grid;
+    gap: 4px;
+    align-items: center;
+}
+.second-brain-container img{
+    width: 600px;
+    height: 600px;
+}
+.second-brain-text{
+    padding-left: 60px;
+    padding-top: 120px;
+}
+.second-brain-text h4 {
+    color: #16a34a;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.second-brain-text h1 {
+    padding-top: 16px;
+    color: #000100;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.second-brain-text .text {
+    padding-top: 16px;
+    color:  #627382;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.second-brain-list {
+    list-style: none;
+    gap: 16px;
+    padding-top: 16px;
+}
+.second-brain-list li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #4a4a4a;
+    
+}
+.second-brain-list p{
+    line-height: 1.8;
+    color: #4a4a4a;
+    
+}
+#early-access{
+    max-width: 1600px;
+    text-align: center;
+    padding: 0px 120px 0px 120px;
+    padding-bottom: 120px;
+    padding-top: 0;
+}
+#early-access .early-access-box{
+    width: 1360px;
+    height: 384px;
+    background: rgba(247, 246, 242, 1);
+    border-radius: 10px  
+    
+}
+#early-access .early-access-text h1 {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+#early-access .early-access-text .first {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+#early-access .early-access-box p {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+#last-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+#last-btn .last-btn{
+    background-color: #30B868;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    height: 52px;
+    border-radius: 5px;
+    color:white ;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 6px 50px 0 #75757553;
+
+}
+.footer {
+  background: linear-gradient(180deg, #0b1f33, #081a2b);
+  padding: 120px 0 60px;
+  color: #fff;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  margin: 40px 0 24px;
+  background: rgba(255,255,255,0.15);
+}
+.social-icons{
+    width:20px ;
+    height:20px ;
+    display: flex;
+    gap: 16px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(250, 250, 250, 1);
+}
+p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(250, 250, 250, 1);
+}
